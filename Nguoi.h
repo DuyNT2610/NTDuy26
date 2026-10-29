@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-class NGUOI {
+class Nguoi {
 protected:
     string hoten;
     int namsinh;
