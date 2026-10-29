@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-class PhuongTrinhBac2 {
+class ptb2 {
 private:
     double a, b, c;
 
@@ -37,7 +37,7 @@ public:
 };
 
 int main() {
-    PhuongTrinhBac2 p;
+    ptb2 p;
     p.nhap();
     p.giai();
     return 0;
