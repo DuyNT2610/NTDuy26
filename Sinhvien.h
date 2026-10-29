@@ -1,13 +1,13 @@
-#include "NGUOI.h"
+#include "Nguoi.h"
 
-class SINHVIEN : public NGUOI {
+class Sinhvien : public Nguoi {
 private:
     double diemlythuyet;
     double diemthuchanh;
 
 public:
     void nhap() {
-        NGUOI::nhap();
+        Nguoi::nhap();
         cout << "Diem ly thuyet: ";
         cin >> diemlythuyet;
         cout << "Diem thuc hanh: ";
