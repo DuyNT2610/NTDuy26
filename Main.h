@@ -1,5 +1,5 @@
 #include <iostream>
-#include "SINHVIEN.h"
+#include "Sinhvien.h"
 using namespace std;
 
 int main() {
@@ -11,7 +11,7 @@ int main() {
         return 0;
     }
 
-    SINHVIEN ds[100];
+    Sinhvien ds[100];
 
     for (int i = 0; i < n; i++) {
         cout << "\nNhap sinh vien thu " << i + 1 << endl;
@@ -35,7 +35,7 @@ int main() {
     for (int i = 0; i < n - 1; i++) {
         for (int j = i + 1; j < n; j++) {
             if (ds[i].tinhdiem() < ds[j].tinhdiem()) {
-                SINHVIEN temp = ds[i];
+                Sinhvien temp = ds[i];
                 ds[i] = ds[j];
                 ds[j] = temp;
             }
