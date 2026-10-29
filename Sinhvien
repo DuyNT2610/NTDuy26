@@ -1,6 +1,3 @@
-#ifndef SINHVIEN_H
-#define SINHVIEN_H
-
 #include "NGUOI.h"
 
 class SINHVIEN : public NGUOI {
